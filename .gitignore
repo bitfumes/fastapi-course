@@ -1,3 +1,7 @@
-__pychache__
+__pycache__
 fastapi-env
+blog-env
+blog/__pycache__
 .DS_Store
+.vscode
+.gitignore
