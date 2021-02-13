@@ -5,3 +5,5 @@ blog/__pycache__
 .DS_Store
 .vscode
 .gitignore
+app/.deta
+app/blog/__pycache__
