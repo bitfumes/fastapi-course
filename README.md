@@ -9,14 +9,14 @@
 ```
 docker-compose -f docker-compose.yaml up --build
 ```
+It should be up now.
 
-*To login to the container*
+*To login to the container(if you want)*
 
 ```
 docker-compose -f docker-compose.yaml exec /bin/bash
 ```
 
-It should be ready now.
 
 > Note: if you updated/edited the code just run the build command again to get the new changes.
 
