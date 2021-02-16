@@ -1,0 +1,11 @@
+version: "3.7"
+
+services:
+  api_v1:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: fastapi_bitfumes_full_course_v1
+    ports:
+    - "8000:8000"
+    network_mode: host
